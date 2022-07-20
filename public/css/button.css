@@ -1,0 +1,43 @@
+.elipson{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.btn {
+  width: 80%;
+  height: 80%;
+  display: inline;
+  margin: 6px;
+  font-size: inherit;
+  line-height: 1.42;
+  padding: 0.8em 1.6em;
+  font-weight: normal;
+  border-width: 0;
+  border-style: solid;
+  background: blue;
+  border-radius: 0.2666666667em;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  user-select: none;
+  vertical-align: bottom;
+  transition: box-shadow 0.2s, transform 0.2s, color 0.2s;
+}
+.btn-secondary {
+  background-color: #0B44EF;
+  background-image: linear-gradient(0deg, #0939c8, #0B44EF, #1f54f5);
+  color: #E6EAEF;
+  box-shadow: 0 2px 0 0 #07288d, 0 1.31em 2em 0 rgba(255, 255, 255, 0) inset, 0 2px 1px 0 rgba(255, 255, 255, 0.1) inset, 0 2px 3px 1px rgba(0, 0, 0, 0.4), 0 0 12px 1px rgba(11, 68, 239, 0.5), 0 2px 1px -1px rgba(0, 0, 0, 0) inset;
+}
+.btn-secondary:hover {
+  box-shadow: 0 2px 0 0 #07288d, 0 1.31em 1em 0 rgba(255, 255, 255, 0.05) inset, 0 2px 1px 0 rgba(255, 255, 255, 0.15) inset, 0 2px 3px 1px rgba(0, 0, 0, 0.6), 0 0 10px 1px rgba(11, 68, 239, 0.4), 0 2px 1px -1px rgba(0, 0, 0, 0) inset;
+}
+.btn-secondary:active {
+  background-color: #0a3dd7;
+  background-image: linear-gradient(180deg, #0936be, #0a3edb);
+  color: #07288d;
+  transition: 0s;
+  box-shadow: 0 0px 0 0 #052175, 0 1.31em 1em 0 rgba(255, 255, 255, 0.05) inset, 0 2px 2px 0 rgba(255, 255, 255, 0) inset, 0 1px 4px 0px rgba(0, 0, 0, 0), 0 0 10px 1px rgba(11, 68, 239, 0.1), 0 2px 2px -1px rgba(0, 0, 0, 0.7) inset;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
